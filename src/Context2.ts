@@ -1,7 +1,7 @@
-import {createContext} from "preact";
+import { createContext } from "preact";
+
 export const Test = () => {
-    console.log('ctx2');
-}
+  console.log("ctx2");
+};
 
-export const Context = createContext<any>(null)
-
+export const Context = createContext<any>(null);
